@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  --main: #8808ff;
+  --bg: #030302;
+  --bg-accent: #191919;
+  --font: #efefef;
+}
+* {
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+a {
+  color: var(--font);
+}
+body {
+  background: var(--bg);
+}
+.wrapper {
+  width: 75%;
+  margin: auto;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  padding: 1rem 0rem;
+  align-items: center;
+}
+header h3 {
+  font-size: 1.5rem;
+  color: #fff;
+}
+header h3 small {
+  color: var(--main);
+  font-size: 0.8rem;
+}
+header ul {
+  display: flex;
+  align-items: center;
+}
+header li {
+  margin-left: 1.5rem;
+}
+header li:first-child {
+  margin-left: 0rem;
+}
+header li a {
+  font-size: 0.85rem;
+}
+header li:last-child a {
+  border: 3px solid var(--main);
+  color: var(--main);
+  text-transform: uppercase;
+  padding: 0.25rem 1rem;
+}
+header li:last-child a span {
+  margin-right: 0.4rem;
+}
+.eu {
+  min-height: 70vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.eu h1 {
+  color: var(--main);
+  font-weight: 800;
+  font-size: 4.3rem;
+  line-height: 5.5rem;
+  margin-bottom: 2rem;
+}
+.eu a {
+  display: inline;
+  border: 3px solid var(--main);
+  padding: 0.45rem 1rem;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+}
+.eu a span {
+  font-size: 1.1rem;
+}
+img {
+  position: absolute;
+  bottom: 0rem;
+  right: 0rem;
+}
+.divisor-pagina {
+  height: 80px;
+  display: grid;
+  place-items: center;
+  position: relative;
+  margin: 1rem 0rem;
+}
+.divide {
+  width: 5px;
+  height: 80px;
+  background: var(--main);
+}
+
+.divide-linha {
+  position: absolute;
+  width: 50%;
+  border-bottom: 1px dashed #ccc;
+}
+.divide-linha.left {
+  left: 0;
+}
+.divide-linha.right {
+  right: 0;
+}
+.section {
+  padding: 2rem 0rem;
+}
+.section-titulo {
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 1.7rem;
+}
+.section-titulo h1 {
+  color: var(--font);
+  letter-spacing: 2px;
+  margin-bottom: 0rem;
+}
+.section-titulo small {
+  font-size: 0.8rem;
+  color: var(--font);
+}
